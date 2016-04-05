@@ -166,9 +166,7 @@ font-size:18.5px;
 font-weight:normal;
 line-height: 1.6em;
 padding-bottom:15px;
-  margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+
 
                             }
 .teasertitle {
@@ -286,7 +284,7 @@ body {
     float:left;
     clear:left;
     width:55%;
-    font-size: 20.5px;
+    font-size: 21px;
     font-weight:normal;
       letter-spacing: .2px;
       color:#a09e9e;
@@ -300,7 +298,7 @@ body {
 
 .name img { 
 
-width: 225px; 
+width: 230px; 
 display:block;
   margin-left: auto;
     margin-right: auto;
@@ -383,14 +381,17 @@ text-align:center;
 }
 .clear { clear: both;}
 .teaser p {
-    width:80%;
+width: 80%;
     text-align:center;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 /*Main Content Box*/
 
 .teasertext {
-    width:80%;
+    text-alight:center;
+    width:100%;
 }
 
 .teaser {
@@ -403,13 +404,23 @@ text-align:center;
         }
 
     h2 {width: 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     -webkit-margin-before: 0.0em;
     -webkit-margin-after: 0.0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+
+h3 {width: 100%;
+    font-size: 1em;
+    -webkit-margin-before: 0.0em;
+    -webkit-margin-after: 0.0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
 .col {
 
  vertical-align: top;
