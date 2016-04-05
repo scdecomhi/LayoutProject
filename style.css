@@ -38,7 +38,7 @@ font-size: 17.2px;
 line-height: 1.6em;
 padding-bottom: 40px;
 max-width:320px;
-
+font-family: 'Palanquin', sans-serif;
       
 
                          }
@@ -249,35 +249,53 @@ padding-bottom:15px;
 @media screen and (min-width:768px) and (max-width: 1023px)  {
 
 body {
-    margin:15px;
+    margin:5px;
 }
 
 /*Header*/
 .titletext {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
+    padding-top:40px;
     padding-bottom: 15px; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-transform: uppercase;
     }
 
 /*Name Section*/
+
+.nametitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: none;
+}
 
 .name {
 
                          }
 
 .nametext {
+    font-family: 'Palanquin', sans-serif;
     float:left;
     clear:left;
     width:55%;
-    font-size: 16.5px;
+    font-size: 20.5px;
     font-weight:normal;
-      letter-spacing: 1.5px;
-      color:grey;
+      letter-spacing: .2px;
+      color:#a09e9e;
       line-height:1.5em;
       padding-left:20px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
   }
 
 .name img { 
@@ -302,10 +320,10 @@ display:block;
 
 a:link, a:visited {
     background-color: #fafafa;
-    color: black;
     text-align: center; 
     text-decoration: none;
     padding-right:55px;
+    color:#564a4a;
 }
 
 
@@ -319,6 +337,7 @@ ul                          {
 
 
 ul li                       {
+    font-size:18px;
 display:inline;
 padding-top: 50px;
 margin: 5px;
@@ -328,6 +347,7 @@ margin:auto;
  margin-left: auto;
     margin-right: auto;
     text-align: right;
+    color:red;
 
 
 
@@ -383,7 +403,7 @@ text-align:center;
         }
 
     h2 {width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     -webkit-margin-before: 0.0em;
     -webkit-margin-after: 0.0em;
     -webkit-margin-start: 0px;
@@ -394,7 +414,7 @@ text-align:center;
 
  vertical-align: top;
  text-align:center;
- padding:7px;
+ padding:4px;
 }
 
 .teasers {
@@ -422,7 +442,65 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+.footerleft {
+        float:left;
+        clear:left;
+    }
+.footerright {
 
+  
+        float:right;
+        clear:right;
+    }
+
+.phone {
+    color:grey;
+     padding-top:50px;
+    padding-bottom:15px;
+    font-size:20px;
+    text-transform:none;
+}
+.email {
+    font-size:20px;
+    padding-bottom:100px;
+    color:grey;
+    text-transform:none;
+
+        }
+
+
+.phonedigits {
+    font-weight:bold;
+}
+.footer {
+    font-weight:bold;
+    margin:0 20px 20px 20px;
+    padding-bottom:25px;
+}
+.contact {
+    padding-top:90px;
+     font-size: 16px;
+      margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+       text-transform: uppercase;
+
+
+        }
+.contacttext {
+    font-size:24px;
+    width: 85%;
+     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:1.6em;
+    padding-bottom:5px;
+    padding-top:10px;
+    letter-spacing:.05px;
+    text-transform: none;
+    color:grey;
+
+}
 
 
 }
@@ -431,6 +509,23 @@ p {
 body {
     margin:25px;
 }
+
+.nametext {
+    font-family: 'Palanquin', sans-serif;
+    float:left;
+    clear:left;
+    width:55%;
+    font-size: 18px;
+    font-weight:normal;
+      letter-spacing: 1.0px;
+      color:#a09e9e;
+      line-height:1.5em;
+      padding-left:20px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
 
 a:link, a:visited {
     background-color: #fafafa;
